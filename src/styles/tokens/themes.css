@@ -1,0 +1,66 @@
+.dark{
+  --semantic-color-headline: var(--color-neutral-100);
+  --semantic-color-body: var(--color-neutral-400);
+  --semantic-color-action: var(--color-teal-400);
+  --semantic-color-action-hover: var(--color-teal-500);
+  --semantic-color-disabled: var(--color-neutral-300);
+  --semantic-color-disabled-hover: var(--color-neutral-300);
+  --semantic-color-info: var(--color-blue-500);
+  --semantic-color-info-hover: var(--color-blue-600);
+  --semantic-color-success: var(--color-emerald-500);
+  --semantic-color-success-hover: var(--color-emerald-600);
+  --semantic-color-warning: var(--color-yellow-500);
+  --semantic-color-warning-hover: var(--color-yellow-600);
+  --semantic-color-error: var(--color-red-500);
+  --semantic-color-error-hover: var(--color-red-600);
+  /*--color-on-action: var(--color-teal-950);
+  --color-on-disabled: var(--color-neutral-700);*/
+
+  --semantic-color-surface-default: var(--color-neutral-800);
+  --semantic-color-surface-default-hover: var(--color-neutral-900);
+  --semantic-color-on-surface-default: var(--color-neutral-300);
+  --semantic-color-surface-default-border: var(--color-neutral-700);
+  --semantic-color-surface-default-border-hover: var(--color-neutral-700);
+
+  --semantic-color-surface-filled: var(--color-teal-400);
+  --semantic-color-surface-filled-hover: var(--color-teal-500);
+  --semantic-color-on-surface-filled: var(--color-teal-950);
+  --semantic-color-surface-filled-border: var(--color-transparent);
+  --semantic-color-surface-filled-border-hover: var(--color-transparent);
+
+  --semantic-color-surface-tonal: var(--color-teal-900);
+  --semantic-color-surface-tonal-hover: var(--color-teal-950);
+  --semantic-color-on-surface-tonal: var(--color-teal-400);
+  --semantic-color-surface-tonal-border: var(--color-transparent);
+  --semantic-color-surface-tonal-border-hover: var(--color-transparent);
+
+  --semantic-color-surface-outlined: var(--color-transparent);
+  --semantic-color-surface-outlined-hover: var(--color-transparent);
+  --semantic-color-on-surface-outlined: var(--color-neutral-400);
+  --semantic-color-surface-outlined-border: var(--color-neutral-400);
+  --semantic-color-surface-outlined-border-hover: var(--color-neutral-400);
+
+  --semantic-color-surface-success: var(--color-emerald-100);
+  --semantic-color-surface-success-hover: var(--color-emerald-200);
+  --semantic-color-on-surface-success: var(--color-emerald-600);
+  --semantic-color-surface-success-border: var(--color-transparent);
+  --semantic-color-surface-success-border-hover: var(--color-transparent);
+
+  --semantic-color-surface-warning: var(--color-yellow-100);
+  --semantic-color-surface-warning-hover: var(--color-yellow-200);
+  --semantic-color-on-surface-warning: var(--color-yellow-800);
+  --semantic-color-surface-warning-border: var(--color-transparent);
+  --semantic-color-surface-warning-border-hover: var(--color-transparent);
+
+  --semantic-color-surface-error: var(--color-red-100);
+  --semantic-color-surface-error-hover: var(--color-red-200);
+  --semantic-color-on-surface-error: var(--color-red-700);
+  --semantic-color-surface-error-border: var(--color-transparent);
+  --semantic-color-surface-error-border-hover: var(--color-transparent);
+
+  --semantic-color-surface-info: var(--color-blue-100);
+  --semantic-color-surface-info-hover: var(--color-blue-200);
+  --semantic-color-on-surface-info: var(--color-blue-700);
+  --semantic-color-surface-info-border: var(--color-transparent);
+  --semantic-color-surface-info-border-hover: var(--color-transparent);
+}

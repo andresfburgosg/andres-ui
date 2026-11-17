@@ -1,0 +1,164 @@
+@utility btn {
+  @apply items-center inline-flex flex-row justify-center font-medium tracking-[.007em] leading-[1.5rem] max-w-full rounded-md outline-none overflow-hidden relative no-underline indent-[.007em] normal-case select-none align-middle transition-all duration-[0.28s] ease-in-out;
+
+  &:disabled {
+    @apply opacity-50;
+  }
+
+  &.btn-default {
+    @apply bg-surface text-on-surface border border-surface-border;
+
+    &:enabled:hover {
+      @apply bg-surface-hover border-surface-border-hover;
+    }
+  }
+
+  &.btn-primary {
+    @apply bg-surface-primary text-on-surface-primary;
+
+    &:enabled:hover {
+      @apply bg-surface-primary-hover;
+    }
+  }
+
+  &.btn-secondary {
+    @apply bg-surface-secondary text-on-surface-secondary;
+
+    &:enabled:hover {
+      @apply bg-surface-secondary-hover;
+    }
+  }
+
+  &.btn-tertiary {
+    @apply bg-surface-tertiary text-on-surface-tertiary border border-surface-tertiary-border;
+
+    &:enabled:hover {
+      @apply bg-surface-tertiary-hover border-surface-tertiary-border-hover;
+    }
+  }
+
+  &.btn-success {
+    @apply bg-surface-success text-on-surface-success;
+
+    &:enabled:hover {
+      @apply bg-surface-success-hover;
+    }
+  }
+
+  &.btn-warning {
+    @apply bg-surface-warning text-on-surface-warning;
+
+    &:enabled:hover {
+      @apply bg-surface-warning-hover;
+    }
+  }
+
+  &.btn-error {
+    @apply bg-surface-error text-on-surface-error;
+
+    &:enabled:hover {
+      @apply bg-surface-error-hover;
+    }
+  }
+
+  &.btn-info {
+    @apply bg-surface-info text-on-surface-info;
+
+    &:enabled:hover {
+      @apply bg-surface-info-hover;
+    }
+  }
+
+  &.btn-size-xs{
+    --btn-size: var(--text-xs);
+    --btn-height: 1.75rem;
+    font-size: var(--btn-size);
+    min-width: 3.125rem;
+    padding: 0 0.75rem;
+  }
+
+  &.btn-size-sm{
+    --btn-size: var(--text-sm);
+    --btn-height: 2.25rem;
+    font-size: var(--btn-size);
+    min-width: 4rem;
+    padding: 0 1rem;
+  }
+
+  &.btn-size-md{
+    --btn-size: var(--text-base);
+    --btn-height: 2.75rem;
+    font-size: var(--btn-size);
+    min-width: 4.875rem;
+    padding: 0 1.25rem;
+  }
+
+  &.btn-size-lg{
+    --btn-size: var(--text-lg);
+    --btn-height: 3.25rem;
+    font-size: var(--btn-size);
+    min-width: 5.75rem;
+    padding: 0 1.5rem;
+  }
+
+  &.btn-size-xl{
+    --btn-size: var(--text-xl);
+    --btn-height: 3.75rem;
+    font-size: var(--btn-size);
+    min-width: 6.625rem;
+    padding: 0 1.75rem;
+  }
+
+  &.btn-density-reduced{
+    height: calc(var(--btn-height) + -12px);
+    &.btn-icon{
+      width: calc(var(--btn-height) + -12px);
+    }
+  }
+
+  &.btn-density-comfortable{
+    height: calc(var(--btn-height) + -8px);
+    &.btn-icon{
+      width: calc(var(--btn-height) + -8px);
+    }
+  }
+
+  &.btn-density-default{
+    height: calc(var(--btn-height) + 0px);
+    &.btn-icon{
+      width: calc(var(--btn-height) + 0px);
+    }
+  }
+
+  &.rounded-zero{
+    @apply rounded-none;
+  }
+
+  &.rounded-default{
+    @apply rounded-md;
+  }
+
+  &.btn-elevation-0{
+    @apply shadow-none;
+  }
+
+  &.btn-elevation-2{
+    @apply shadow-sm;
+  }
+
+  &.btn-elevation-3{
+    @apply shadow-md;
+  }
+
+  &.btn-elevation-4{
+    @apply shadow-lg;
+  }
+
+  &.btn-elevation-5{
+    @apply shadow-xl;
+  }
+
+  &.btn-icon{
+    @apply rounded-full min-w-0 p-0
+  }
+}

@@ -1,0 +1,79 @@
+@theme {
+  --color-headline: var(--semantic-color-headline);
+  --color-body: var(--semantic-color-body);
+  --color-primary: var(--semantic-color-action);
+  --color-primary-hover: var(--semantic-color-action-hover);
+  --color-disabled: var(--semantic-color-disabled);
+  --color-disabled-hover: var(--semantic-color-disabled-hover);
+  --color-info: var(--semantic-color-info);
+  --color-info-hover: var(--semantic-color-info-hover);
+  --color-success: var(--semantic-color-success);
+  --color-success-hover: var(--semantic-color-success-hover);
+  --color-warning: var(--semantic-color-warning);
+  --color-warning-hover: var(--semantic-color-warning-hover);
+  --color-error: var(--semantic-color-error);
+  --color-error-hover: var(--semantic-color-error-hover);
+
+  --color-surface: var(--semantic-color-surface-default);
+  --color-surface-hover: var(--semantic-color-surface-default-hover);
+  --color-on-surface: var(--semantic-color-on-surface-default);
+  --color-surface-border: var(--semantic-color-surface-default-border);
+  --color-surface-border-hover: var(--semantic-color-surface-default-border-hover);
+
+  --color-surface-primary: var(--semantic-color-surface-filled);
+  --color-surface-primary-hover: var(--semantic-color-surface-filled-hover);
+  --color-on-surface-primary: var(--semantic-color-on-surface-filled);
+  --color-surface-primary-border: var(--semantic-color-surface-filled-border);
+  --color-surface-primary-border-hover: var(--semantic-color-surface-filled-border-hover);
+
+  --color-surface-secondary: var(--semantic-color-surface-tonal);
+  --color-surface-secondary-hover: var(--semantic-color-surface-tonal-hover);
+  --color-on-surface-secondary: var(--semantic-color-on-surface-tonal);
+  --color-surface-secondary-border: var(--semantic-color-surface-tonal-border);
+  --color-surface-secondary-border-hover: var(--semantic-color-surface-tonal-border-hover);
+
+  --color-surface-tertiary: var(--semantic-color-surface-outlined);
+  --color-surface-tertiary-hover: var(--semantic-color-surface-outlined-hover);
+  --color-on-surface-tertiary: var(--semantic-color-on-surface-outlined);
+  --color-surface-tertiary-border: var(--semantic-color-surface-outlined-border);
+  --color-surface-tertiary-border-hover: var(--semantic-color-surface-outlined-border-hover);
+
+  --color-surface-success: var(--semantic-color-surface-success);
+  --color-surface-success-hover: var(--semantic-color-surface-success-hover);
+  --color-on-surface-success: var(--semantic-color-on-surface-success);
+  --color-surface-success-border: var(--semantic-color-surface-success-border);
+  --color-surface-success-border-hover: var(--semantic-color-surface-success-border-hover);
+
+  --color-surface-warning: var(--semantic-color-surface-warning);
+  --color-surface-warning-hover: var(--semantic-color-surface-warning-hover);
+  --color-on-surface-warning: var(--semantic-color-on-surface-warning);
+  --color-surface-warning-border: var(--semantic-color-surface-warning-border);
+  --color-surface-warning-border-hover: var(--semantic-color-surface-warning-border-hover);
+
+  --color-surface-error: var(--semantic-color-surface-error);
+  --color-surface-error-hover: var(--semantic-color-surface-error-hover);
+  --color-on-surface-error: var(--semantic-color-on-surface-error);
+  --color-surface-error-border: var(--semantic-color-surface-error-border);
+  --color-surface-error-border-hover: var(--semantic-color-surface-error-border-hover);
+
+  --color-surface-info: var(--semantic-color-surface-info);
+  --color-surface-info-hover: var(--semantic-color-surface-info-hover);
+  --color-on-surface-info: var(--semantic-color-on-surface-info);
+  --color-surface-info-border: var(--semantic-color-surface-info-border);
+  --color-surface-info-border-hover: var(--semantic-color-surface-info-border-hover);
+
+  --font-inter: var(--font-family-inter);
+
+  --shadow-xs: var(--shadow-0);
+  --shadow-sm: var(--shadow-1);
+  --shadow-md: var(--shadow-2);
+  --shadow-lg: var(--shadow-3);
+  --shadow-xl: var(--shadow-4);
+  --shadow-2xl: var(--shadow-5);
+
+  --duration-fast: var(--motion-duration-fast);
+  --duration-normal: var(--motion-duration-normal);
+  --duration-slow: var(--motion-duration-slow);
+}
+
+@custom-variant dark (&:where(.dark, .dark *));
